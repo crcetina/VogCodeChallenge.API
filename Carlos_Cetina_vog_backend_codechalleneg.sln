@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VogCodeChallenge.API", "VogCodeChallenge.API\VogCodeChallenge.API.csproj", "{0EDCEE54-1E0A-4C3C-B4BD-F41D17F0F24A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VogCodeChallenge.API", "VogCodeChallenge.API\VogCodeChallenge.API.csproj", "{0EDCEE54-1E0A-4C3C-B4BD-F41D17F0F24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{894CF2F1-2569-4337-9590-0F0579A46844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{5F52791F-5C37-4E36-AD60-4A2756603B04}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BF18EA7A-70CB-48E0-AC7B-CE7605CB4951}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{0EDCEE54-1E0A-4C3C-B4BD-F41D17F0F24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EDCEE54-1E0A-4C3C-B4BD-F41D17F0F24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EDCEE54-1E0A-4C3C-B4BD-F41D17F0F24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{894CF2F1-2569-4337-9590-0F0579A46844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894CF2F1-2569-4337-9590-0F0579A46844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894CF2F1-2569-4337-9590-0F0579A46844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894CF2F1-2569-4337-9590-0F0579A46844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F52791F-5C37-4E36-AD60-4A2756603B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F52791F-5C37-4E36-AD60-4A2756603B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F52791F-5C37-4E36-AD60-4A2756603B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F52791F-5C37-4E36-AD60-4A2756603B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF18EA7A-70CB-48E0-AC7B-CE7605CB4951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF18EA7A-70CB-48E0-AC7B-CE7605CB4951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF18EA7A-70CB-48E0-AC7B-CE7605CB4951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF18EA7A-70CB-48E0-AC7B-CE7605CB4951}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
